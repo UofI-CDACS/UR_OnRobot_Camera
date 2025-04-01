@@ -12,6 +12,8 @@ Robots used: Universal Robot (UR5e)
 
 End-Effector: OnRobot RG2 Gripper
 
+Camera: OnRobot Eyes
+
 Purpose:  
 - Automate image capture from the UR5e camera  
 - Enable real-time quality control and inspection  
