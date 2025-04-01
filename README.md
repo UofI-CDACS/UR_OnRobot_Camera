@@ -1,4 +1,4 @@
-# UR_OnRobot_Camera_Driver
+# UR_OnRobot_Camera
 
 This project, **UR_OnRobot_Camera_Driver**, is an automation script for capturing images from the Universal Robot (UR5e) camera. The script interacts with the UR5e robot's web interface and captures images from the camera, which can be used for various applications like quality inspection, and real-time monitoring. The script automates browser actions and Python for processing and saving images.
 
