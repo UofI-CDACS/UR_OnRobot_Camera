@@ -21,7 +21,7 @@ This project is an automation script for capturing images from the Universal Rob
 
 ### Overview
 
-This automation script captures images from the Universal Robot (UR5e) camera, interacting with its web interface via Selenium. It performs a various of actions like logging into the robot’s control interface (via the OnRobot Compute Box web interrface), navigating to the camera section, and capturing images of the robot’s workspace.
+This automation script captures images from the OnRobot Eyes that is connected Universal Robot (UR5e), interacting with its web interface. It performs a various of actions like logging into the robot’s control interface (via the OnRobot Compute Box web interrface), navigating to the camera section, and capturing images of the robot’s workspace.
 
 ### How to Use
 
@@ -78,7 +78,7 @@ This automation script captures images from the Universal Robot (UR5e) camera, i
 
 ### Software
 
-- Python 3.x
+- Python 3.10
 - Selenium
 - Chrome WebDriver (compatible with the version of Google Chrome that you have installed)
 - pyautogui (for additional screenshot handling, for capturing)
