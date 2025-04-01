@@ -1,3 +1,4 @@
+import os
 import unittest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -61,7 +62,6 @@ class TestURCameraAutomation(unittest.TestCase):
         driver.save_screenshot("../images/test_screenshot.png")
 
         # Ensure that the screenshot is saved to right dir
-        import os
         self.assertTrue(os.path.exists("../images/test_screenshot.png"), "Screenshot was not saved!")
 
     @classmethod
