@@ -96,14 +96,14 @@ try:
 
     time.sleep(3)
 
-    driver.save_screenshot("images/Image_3.png")
+    driver.save_screenshot("../images/Image_3.png")
     print("Full page screenshot saved as images/Image_1.png")
 
     # Container
     canvas_container = driver.find_element(By.ID, "canvasContainer")
     
     # Take screenshot of just this element
-    canvas_container.screenshot("images/Image_4.png")
+    canvas_container.screenshot("../images/Image_4.png")
     print("Successfully saved camera output screenshot!")
 
     # Specific region screenshot
